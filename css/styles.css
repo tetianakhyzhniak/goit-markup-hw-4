@@ -8,7 +8,7 @@
     --color-logo-footer:rgba(244, 244, 253, 1);
 
 }
-.list,.projects-list,.list-cont,.list-button,.list-work,.list-item,.social-list-item{
+.list,.projects-list,.list-cont,.list-button,.list-work,.list-item,.social-list-item,.customers-item,.social-media{
     list-style: none;
 }
 /* Cкидання стилів */
@@ -178,7 +178,18 @@ background-color: var(--primary-white-color);
     padding-right: 16px;
     background: #FFFFFF;
 }
-
+.advantage-item{
+    
+}
+.icon-advantage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    background-color: rgba(244, 244, 253, 1);
+    fill: rgba(46, 47, 66, 1);
+}
 .social-list-item{
     display: flex;
     justify-content: space-between;
@@ -191,6 +202,7 @@ width: 40px;
 height: 40px;
 border-radius: 50%;
 background-color:var(--color-logo-button);
+fill: #FFFFFF;
 }
 .list-item{
     display: flex;
@@ -303,6 +315,42 @@ background-color: #F4F4FD;
     color: var(--primary-white-color);
     background-color: var(--color-logo-button);
 }
+/* Кдієнти */
+
+.customers-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.customers-list{
+    width: 168px;
+    height: 88px;
+    text-align: center;
+    border: solid 1px rgba(46, 47, 66, 0.4);
+}
+.customers-list:hover,
+.customers-list:focus{
+    border: solid 1px rgba(77, 90, 229, 1);
+}
+.customers-link:hover .customers-logo,
+.customers-link:focus .customers-logo{
+    border: var(--color-logo-button);
+    fill:rgba(77, 90, 229, 1) ;
+}
+    
+.customers{
+    padding-top: 113px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+   
+   
+}
+.customers-logo{
+    fill: rgba(46, 47, 66, 0.7);
+}
+
 /* футер */
 .recommend{
     background-color: #2E2F42;
@@ -320,13 +368,43 @@ background-color: #F4F4FD;
     width: 264px;
     margin-top: 16px;
 }
+.info-footer{
+    margin-right: 120px;
+    margin-left: 156px;
+}
 .recommend .logo{
     padding: 0;
     margin-right: 0;
     margin-bottom: 24px;
 }
+.contanair.info{
+    display: flex;
+    justify-content: flex-start;
+}
+.socil-media-item{
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
 a{
     text-decoration: none;
+}
+.media-text{
+    margin-bottom: 16px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.social-media-link{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    fill: #FFFFFF;
+}
+.social-media-link:hover,
+.social-media-link:focus{
+    background-color: rgba(49, 208, 170, 1);
 }
 /* Портфолио */
 .title-project{
