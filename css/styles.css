@@ -271,6 +271,7 @@ background-color: #F4F4FD;
     padding-top: 192px;
     padding-bottom: 192px;
     max-width: 1440px;
+    margin: 0 auto;
     background-image: linear-gradient(to right ,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
     url('../img/hero.jpg');
     background-position: center;
@@ -453,7 +454,7 @@ line-height: 1.33;
 .projects-link{
     display: block;
 }
-.projects-link:hover
+.projects-link:hover,
 .projects-link:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
